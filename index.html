@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survis JSON Display</title>
+  <link rel="stylesheet" href="https://unpkg.com/survis@latest/dist/survis.css">
+  <script src="https://unpkg.com/survis@latest/dist/survis.js"></script>
+</head>
+<body>
+  <div id="survis-container" style="width: 100%; height: 100vh;"></div>
+
+  <script>
+    // 加载并展示 JSON 文件
+    const jsonUrl = 'https://raw.githubusercontent.com/Kaneki-Gintoki/pu-SurVis/refs/heads/main/survis.json'; // 如果你已经上传到 GitHub，可以替换为 GitHub raw URL
+    fetch(jsonUrl)
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('survis-container');
+        new Survis(container, data);
+      })
+      .catch(error => console.error('Error loading JSON:', error));
+  </script>
+</body>
+</html>
