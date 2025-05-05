@@ -1,0 +1,130 @@
+{
+  "title": "Survey on Positive-Unlabeled Learning",
+  "authors": [
+    "Kaneki-Gintoki"
+  ],
+  "papers": [
+    {
+      "id": "Elkan2008",
+      "title": "Learning classifiers from only positive and unlabeled data",
+      "authors": [
+        "Charles Elkan",
+        "Keith Noto"
+      ],
+      "venue": "KDD",
+      "year": 2008,
+      "link": "https://doi.org/10.1145/1401890.1401920"
+    },
+    {
+      "id": "Liu2003",
+      "title": "Building text classifiers using positive and unlabeled examples",
+      "authors": [
+        "Bing Liu",
+        "Yiyuan Dai",
+        "Xiaoli Li",
+        "Wee Sun Lee",
+        "Philip S. Yu"
+      ],
+      "venue": "ICML",
+      "year": 2003,
+      "link": "https://dl.acm.org/doi/10.5555/3041838.3041866"
+    },
+    {
+      "id": "Bekker2019",
+      "title": "Learning from positive and unlabeled data: A survey",
+      "authors": [
+        "Jesse H. K. Bekker",
+        "Jesse Davis"
+      ],
+      "venue": "Machine Learning",
+      "year": 2019,
+      "link": "https://doi.org/10.1007/s10994-018-5761-7"
+    },
+    {
+      "id": "Hsieh2019",
+      "title": "Classification from Positive, Unlabeled and Biased Negative Data",
+      "authors": [
+        "Yu-Yuan Hsieh",
+        "Yu-An Chung",
+        "Hsuan-Tien Lin"
+      ],
+      "venue": "AAAI",
+      "year": 2019,
+      "link": "https://doi.org/10.1609/aaai.v33i01.33018325"
+    },
+    {
+      "id": "Kiryo2017",
+      "title": "Positive-unlabeled learning with non-negative risk estimator",
+      "authors": [
+        "Ryuichi Kiryo",
+        "Gang Niu",
+        "Marthinus C. du Plessis",
+        "Masashi Sugiyama"
+      ],
+      "venue": "NeurIPS",
+      "year": 2017,
+      "link": "https://proceedings.neurips.cc/paper_files/paper/2017/hash/a3ebdb1b26143e0e091563da51fb17cf-Abstract.html"
+    },
+    {
+      "id": "Peng2020",
+      "title": "Safe Classifier Learning with Positive and Unlabeled Examples",
+      "authors": [
+        "Yang Peng",
+        "Gang Niu",
+        "Masashi Sugiyama"
+      ],
+      "venue": "ICML",
+      "year": 2020,
+      "link": "http://proceedings.mlr.press/v119/peng20c.html"
+    },
+    {
+      "id": "DuPlessis2015",
+      "title": "Convex formulation for learning from positive and unlabeled data",
+      "authors": [
+        "Marthinus C. du Plessis",
+        "Gang Niu",
+        "Masashi Sugiyama"
+      ],
+      "venue": "ICML",
+      "year": 2015,
+      "link": "http://proceedings.mlr.press/v37/duplessis15.html"
+    },
+    {
+      "id": "Feng2020",
+      "title": "Understanding and Improving Surrogate Loss for PU Learning",
+      "authors": [
+        "Lei Feng",
+        "Gang Niu",
+        "Masashi Sugiyama"
+      ],
+      "venue": "ICML",
+      "year": 2020,
+      "link": "http://proceedings.mlr.press/v119/feng20a.html"
+    },
+    {
+      "id": "Li2021",
+      "title": "Provably Consistent PU Learning via Label Frequency Estimation",
+      "authors": [
+        "Yuzhou Li",
+        "Gang Niu",
+        "Masashi Sugiyama"
+      ],
+      "venue": "AISTATS",
+      "year": 2021,
+      "link": "https://proceedings.mlr.press/v130/li21d.html"
+    },
+    {
+      "id": "Hu2023",
+      "title": "Debiasing Positive-unlabeled Learning with Informative Negative Selection",
+      "authors": [
+        "Haoran Hu",
+        "Liang Zhao",
+        "Gang Niu",
+        "Bo Han"
+      ],
+      "venue": "AAAI",
+      "year": 2023,
+      "link": "https://doi.org/10.1609/aaai.v37i8.25957"
+    }
+  ]
+}
